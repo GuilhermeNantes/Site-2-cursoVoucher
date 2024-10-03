@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  inicio da Header */
+
+li, a, button {
+    font-family: monospace,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #edf0f2;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    padding: 28px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 70px;
+}
+.nav-links li {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li:hover {
+    color: rgba(0, 242, 255, 0.775);
+    
+}
+button {
+    padding:9px 25px;
+    background-color: rgba(18, 132, 138, 0.775);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgb(3, 188, 202);
+}
+
+/*  Final da Header */
+
+.sidebar{
+    background-color: red;
+    padding: 30px;
+    width: 20%;
+    height: 100%;
+}
