@@ -7,37 +7,37 @@
     
     <!-- ========== CSS ========= -->
 
-    <link rel="stylesheet" href="/asstes/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     
     <!-- ====== boxicones ======= -->
     
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
-    <title>side de vendas| sla o tema</title>
+    <title>Site de vendas | Tema Desconhecido</title>
 
 </head>
 <body>
-    <div class="sidebar">
+    <nav class="sidebar">
         <header>
             <div class="image-text">
                 <span class="image">
-                    <img src="https://img.elo7.com.br/product/zoom/45A7149/caneca-meme-bolsotse-bolsonaro-comunista-canecas-engracadas.jpg" alt="Logo">
+                    <img src="/assets/images/bolsonminion.jpg" alt="Logo">
                 </span>
 
                 <div class="text header-text">
                     <span class="name">Guilherme Dev</span>
-                    <span class="profisson">Vendedor</span>
+                    <span class="profissao">Vendedor</span>
                 </div>
             </div>
 
             <i class='bx bxs-chevron-right toggle'></i>
         
             <div class="menu-bar">
-                <div class="menu">
+                <nav class="menu">
                     <li class="search-box">
-                        <a href="#">
+                        <a href="#" aria-label="Pesquisar">
                             <i class='bx bx-search icons' ></i>
-                            <input type="search" placeholder="Search ...">
+                            <input type="search" placeholder="Search ..." aria-label="Pesquisar...">
                         </a>
                     </li>
                     <ul class="menu-links">
@@ -74,35 +74,40 @@
                         <li class="nav-links">
                             <a href="#">
                                 <i class='bx bx-wallet icons'></i>
-                                <span class="text nav-text">Wallsets</span>
+                                <span class="text nav-text">Wallets</span>
                             </a>
                         </li>
                     </ul>
-                </div>
+                </nav>
 
                 <div class="buttons-content">
                     <li class="">
                         <a href="#">
                             <i class='bx bx-log-out icons'></i>
-                            <span class="text nav-text">Legout</span>
+                            <span class="text nav-text">Logout</span>
                         </a>
                     </li>
 
-                    <div class="mode">
-                        <li class="mode-sun">
-                            <i class='bx bx-moon icons'></i> 
-                            <i class='bx bx-sun icons'></i>
-                        </li>
-                        <span class="mode-text text">darkmode</span>
+                    <li class="mode">
+                        <div class="mode-sun">
+                            <i class='bx bx-moon icons moon'></i> 
+                            <i class='bx bx-sun icons sun'></i>
+                        </div>
+                        <span class="mode-text text">Modo Escuro</span>
 
                         <div class="toggles-switch">
                             <span class="switch"></span>
                         </div>
 
-                    </div>
+                    </li>
                 </div>
             </div>
         </header>
-    </div>
+    </nav>
+
+    <!-- ====== Java Script ====== -->
+    
+    <script src="/assets/js/script.js"></script>
+
 </body>
 </html>

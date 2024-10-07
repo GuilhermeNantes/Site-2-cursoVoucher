@@ -24,4 +24,4 @@ mais é isso por inquanto isso istou progredindo
 
 # proximo tema kkk
 
-ps """ isso é o feito da minha esquizofenia
+ps """ isso é o feito da minha esquizofenia """"
